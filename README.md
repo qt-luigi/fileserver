@@ -2,12 +2,15 @@
 
 fileserver is a static file HTTP server.
 
-## Installation
+## Installation & Execution
 
-When you have installed the Go, Please execute following `go get` command:
+When you have installed the Go, Please execute following commands:
 
 ```sh
 go get -u github.com/qt-luigi/fileserver/
+cd filesever/cmd
+go build -o fileserver main.go arg.go (for Windows: -o fileserver.exe)
+./fileserver
 ```
 
 ## Usage
